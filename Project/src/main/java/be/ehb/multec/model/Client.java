@@ -1,4 +1,4 @@
 package be.ehb.multec.model;
 
-public class Test {
+public class Client {
 }
