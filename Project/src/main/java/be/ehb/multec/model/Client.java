@@ -1,6 +1,7 @@
 package be.ehb.multec.model;
+import data.Target;
 
-public class Client {
+public class Client implements Target {
     private int id;
     private String name;
     private String lastname;
@@ -8,6 +9,9 @@ public class Client {
     private int age;
     private String address;
     private int number;
+
+    public Client() {
+    }
 
     public Client( String name, String lastname, int age, String address, int number ) {
         this(-1, name, lastname, age, address, number);
@@ -24,6 +28,8 @@ public class Client {
         this.address = address;
         this.number = number;
     }
+
+
 
     public int getId() {
         return id;
@@ -51,5 +57,10 @@ public class Client {
     public String getClientInfo() {
         String res = getFullName() + '\n' + address + '\n' + number;
         return res;
+    }
+
+    @Override
+    public void request() {
+        System.out.println("behavior performed 1.0");
     }
 }
