@@ -1,0 +1,2 @@
+be/ehb/multec/model/Client.java
+ be.ehb.multec.model.Client
