@@ -8,13 +8,19 @@ be/ehb/multec/model/SurgicalMask.java
  be.ehb.multec.model.SurgicalMask
 be/ehb/multec/model/Mask.java
  be.ehb.multec.model.Mask
-be/ehb/multec/model/Color.java
- be.ehb.multec.model.Color
+be/ehb/multec/model/Product.java
+ be.ehb.multec.model.Product
 be/ehb/multec/data/Adapter.java
  be.ehb.multec.data.Adapter
 be/ehb/multec/model/Client.java
  be.ehb.multec.model.Client
-be/ehb/multec/model/Product.java
- be.ehb.multec.model.Product
+be/ehb/multec/model/Size.java
+ be.ehb.multec.model.Size
+be/ehb/multec/model/Skins.java
+ be.ehb.multec.model.Skins
+be/ehb/multec/model/Color.java
+ be.ehb.multec.model.Color
+be/ehb/multec/model/CottonMask.java
+ be.ehb.multec.model.CottonMask
 be/ehb/multec/model/Pattern.java
  be.ehb.multec.model.Pattern
