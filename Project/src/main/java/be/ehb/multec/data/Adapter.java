@@ -1,4 +1,4 @@
-package data;
+package be.ehb.multec.data;
 
 public class Adapter implements Target{
     private Adaptee adaptee;

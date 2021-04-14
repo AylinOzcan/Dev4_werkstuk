@@ -1,4 +1,4 @@
-package data;
+package be.ehb.multec.data;
 
 //how the interface looks like - but can't change it
 public class Adaptee {
