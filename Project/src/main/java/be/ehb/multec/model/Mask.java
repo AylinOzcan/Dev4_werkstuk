@@ -4,7 +4,7 @@ public abstract class Mask {
 
     protected String description;
 
-    protected void getDescription(String description){
+    protected void setDescription(String description){
         this.description = description;
     }
 

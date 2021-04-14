@@ -1,10 +1,20 @@
-be/ehb/multec/model/Product.java
- be.ehb.multec.model.Product
-be/ehb/multec/Adapter.java
- be.ehb.multec.Adapter
-be/ehb/multec/Target.java
- be.ehb.multec.Target
-be/ehb/multec/Adaptee.java
- be.ehb.multec.Adaptee
+be/ehb/multec/model/Decorator.java
+ be.ehb.multec.model.Decorator
+be/ehb/multec/data/Adaptee.java
+ be.ehb.multec.data.Adaptee
+be/ehb/multec/data/Target.java
+ be.ehb.multec.data.Target
+be/ehb/multec/model/SurgicalMask.java
+ be.ehb.multec.model.SurgicalMask
+be/ehb/multec/model/Mask.java
+ be.ehb.multec.model.Mask
+be/ehb/multec/model/Color.java
+ be.ehb.multec.model.Color
+be/ehb/multec/data/Adapter.java
+ be.ehb.multec.data.Adapter
 be/ehb/multec/model/Client.java
  be.ehb.multec.model.Client
+be/ehb/multec/model/Product.java
+ be.ehb.multec.model.Product
+be/ehb/multec/model/Pattern.java
+ be.ehb.multec.model.Pattern

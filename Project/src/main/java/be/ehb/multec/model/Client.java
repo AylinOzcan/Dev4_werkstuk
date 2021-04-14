@@ -1,5 +1,5 @@
 package be.ehb.multec.model;
-import data.Target;
+import be.ehb.multec.data.Target;
 
 public class Client implements Target {
     private int id;
