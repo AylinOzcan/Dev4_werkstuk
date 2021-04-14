@@ -1,13 +1,10 @@
 package be.ehb.multec.model;
 
-public abstract class CottonMask extends Mask{
-
-
-    @Override
-    protected void getDescription(String description) {
-        description = "cottonMask"; // description nog uitbreiden
-        super.getDescription(description);
+public class CottonMask extends Mask{
+    public CottonMask(){
+        setDescription("Cotton mask");
     }
+
     @Override
     protected double cost(){
         return 1.30;

@@ -1,20 +1,24 @@
 package be.ehb.multec.model;
 
-public abstract class Size extends Decorator{
-    Product mask;
-    protected Size(Mask mask) {
+public class Size extends Decorator{
+    String size = "medium";
+    protected Size(Mask mask, String size) {
         super(mask);
-    }
-
-
-    @Override
-    protected void getDescription(String description) {
-        description ="size"; // description nog uitbreiden
-        super.getDescription(description);
+        setSize("small");
+        super.setDescription(", size: " + size);
     }
 
     @Override
     protected  double cost(){
         return 1.90;
     };
+
+    @Override
+    protected String getDescription() {
+        return super.mask.getDescription() + super.getDescription();
+    }
+
+    public void setSize(String size) {
+        this.size = size;
+    }
 }
