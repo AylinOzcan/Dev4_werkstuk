@@ -1,0 +1,4 @@
+be/ehb/multec/data/AdapterTest.java
+ be.ehb.multec.data.AdapterTest
+be/ehb/multec/model/MaskTest.java
+ be.ehb.multec.model.MaskTest
