@@ -22,4 +22,9 @@ public class Skins extends Decorator {
     public void setSkins(String skins) {
         this.skins = skins;
     }
+
+    @Override
+    public void maskCosts() {
+        //does nothing
+    }
 }

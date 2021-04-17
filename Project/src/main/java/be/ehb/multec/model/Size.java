@@ -21,4 +21,9 @@ public class Size extends Decorator{
     public void setSize(String size) {
         this.size = size;
     }
+
+    @Override
+    public void maskCosts() {
+        //does nothing
+    }
 }

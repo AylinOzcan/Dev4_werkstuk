@@ -21,4 +21,9 @@ public class Color extends Decorator {
     public void setColor(String color){
        this.color = color;
     }
+
+    @Override
+    public void maskCosts() {
+        //does nothing
+    }
 }
