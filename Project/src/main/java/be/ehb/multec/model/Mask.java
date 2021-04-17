@@ -1,6 +1,8 @@
 package be.ehb.multec.model;
 
-public abstract class Mask {
+import be.ehb.multec.data.EUMarket;
+
+public abstract class Mask implements EUMarket {
 
     protected String description;
 

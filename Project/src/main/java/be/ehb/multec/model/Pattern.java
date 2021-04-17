@@ -21,4 +21,9 @@ public class Pattern extends Decorator {
     public void setPattern(String pattern){
         this.pattern = pattern;
     }
+
+    @Override
+    public void maskCosts() {
+        //does nothing
+    }
 }

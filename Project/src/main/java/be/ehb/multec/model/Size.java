@@ -4,7 +4,7 @@ public class Size extends Decorator{
     String size = "medium";
     protected Size(Mask mask, String size) {
         super(mask);
-        setSize("small");
+        setSize(size);
         super.setDescription(", size: " + size);
     }
 
@@ -20,5 +20,10 @@ public class Size extends Decorator{
 
     public void setSize(String size) {
         this.size = size;
+    }
+
+    @Override
+    public void maskCosts() {
+        //does nothing
     }
 }

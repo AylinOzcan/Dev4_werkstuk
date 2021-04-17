@@ -1,7 +1,6 @@
 package be.ehb.multec.model;
-import be.ehb.multec.data.Target;
 
-public class Client implements Target {
+public class Client {
     private int id;
     private String name;
     private String lastname;
@@ -55,12 +54,13 @@ public class Client implements Target {
     }
 
     public String getClientInfo() {
-        String res = getFullName() + '\n' + address + '\n' + number;
+        String res = getFullName() + '\n' + getAddress() + '\n' + getNumber();
         return res;
     }
 
-    @Override
+   // @Override
     public void request() {
-        System.out.println("behavior performed 1.0");
+       // System.out.println("Client's information: " + getClientInfo());
+
     }
 }
