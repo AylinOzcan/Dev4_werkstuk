@@ -1,8 +1,9 @@
 package be.ehb.multec.model;
 
 public class Size extends Decorator{
-    String size = "medium";
-    protected Size(Mask mask, String size) {
+    private String size = "medium";
+
+    public Size(Mask mask, String size) {
         super(mask);
         setSize(size);
         super.setDescription(", size: " + size);

@@ -1,9 +1,9 @@
 package be.ehb.multec.model;
 
 public class Skins extends Decorator {
-    String skins = "basic skin";
+    private String skins = "basic skin";
 
-    protected Skins(Mask mask, String skins) {
+    public Skins(Mask mask, String skins) {
         super(mask);
         setSkins(skins);
         super.setDescription(", skins: " + skins);

@@ -3,7 +3,14 @@ package be.ehb.multec.model;
 public class Pattern extends Decorator {
     private String pattern = "basic";
 
-    protected Pattern(Mask mask, String pattern) {
+    //ERROR:  when none pattern is given -> should auto be "basic" but gives null instead
+    public Pattern(Mask mask){
+        super(mask);
+        setPattern( pattern );
+        new Pattern(mask, pattern);
+    }
+
+    public Pattern(Mask mask, String pattern) {
         super(mask);
         setPattern(pattern);
         super.setDescription(", pattern: " + pattern);
