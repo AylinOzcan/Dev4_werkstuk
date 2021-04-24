@@ -4,31 +4,26 @@ public class Client {
     private int id;
     private String name;
     private String lastname;
-    //maybe age isn't necessary
-    private int age;
     private String address;
     private int number;
 
     public Client() {
     }
 
-    public Client( String name, String lastname, int age, String address, int number ) {
-        this(-1, name, lastname, age, address, number);
+    public Client( String name, String lastname, String address, int number ) {
+        this(-1, name, lastname, address, number);
     }
 
-    public Client( int id, String name, String lastname, int age, String address, int number ) {
+    public Client( int id, String name, String lastname, String address, int number ) {
         if( name == null || name.trim().length() == 0 ) throw new IllegalArgumentException("client's name cannot be blank");
         if( lastname == null || lastname.trim().length() == 0 ) throw new IllegalArgumentException("client's lastname cannot be blank");
 
         this.id = id;
         this.name = name;
         this.lastname = lastname;
-        this.age = age;
         this.address = address;
         this.number = number;
     }
-
-
 
     public int getId() {
         return id;
@@ -53,14 +48,10 @@ public class Client {
         return number;
     }
 
+    /*
     public String getClientInfo() {
         String res = getFullName() + '\n' + getAddress() + '\n' + getNumber();
         return res;
     }
-
-   // @Override
-    public void request() {
-       // System.out.println("Client's information: " + getClientInfo());
-
-    }
+    */
 }
