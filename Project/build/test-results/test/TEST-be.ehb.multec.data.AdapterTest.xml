@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="be.ehb.multec.data.AdapterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-24T08:26:54" hostname="MacBook-Pro.local" time="0.01">
+  <properties/>
+  <testcase name="adapterWithInterface" classname="be.ehb.multec.data.AdapterTest" time="0.009"/>
+  <testcase name="adapterWithoutInterface" classname="be.ehb.multec.data.AdapterTest" time="0.0"/>
+  <testcase name="adapterWithoutAdaptee" classname="be.ehb.multec.data.AdapterTest" time="0.0"/>
+  <system-out><![CDATA[Mask costs $1.5
+Mask costs $1.5
+Mask costs $1.5
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

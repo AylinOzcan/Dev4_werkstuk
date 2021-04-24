@@ -16,10 +16,10 @@ be/ehb/multec/data/EUMarket.java
  be.ehb.multec.data.EUMarket
 be/ehb/multec/model/Decorator.java
  be.ehb.multec.model.Decorator
+be/ehb/multec/data/USMarket.java
+ be.ehb.multec.data.USMarket
 be/ehb/multec/model/SurgicalMask.java
  be.ehb.multec.model.SurgicalMask
-be/ehb/multec/data/Supplier.java
- be.ehb.multec.data.Supplier
 be/ehb/multec/model/Pattern.java
  be.ehb.multec.model.Pattern
 be/ehb/multec/data/MonetaryAdapter.java
