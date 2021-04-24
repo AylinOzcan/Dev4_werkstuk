@@ -11,7 +11,7 @@ public class MaskTest {
         Mask mask = new SurgicalMask();
         mask = new Color(mask, "blue");
         mask = new Pattern(mask, "kaleodoscope" );
-
+        mask = new Size(mask, "small");
         System.out.println(mask.getDescription() + " €" + mask.cost());
         */
 
