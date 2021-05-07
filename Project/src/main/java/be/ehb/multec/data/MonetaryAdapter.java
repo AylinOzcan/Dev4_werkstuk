@@ -12,7 +12,7 @@ public class MonetaryAdapter implements EUMarket{
     }
 
     @Override
-    public void costs() {
+    public void maskCosts() {
         usMarket.maskInDollar();
     }
 }

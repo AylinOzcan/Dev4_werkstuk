@@ -2,6 +2,7 @@ package be.ehb.multec.model;
 
 public abstract class Mask {
     protected String description;
+    /*
     protected Client client;
 
     public Client getClient() {
@@ -11,6 +12,7 @@ public abstract class Mask {
     public void setClient(Client client) {
         this.client = client;
     }
+     */
 
     protected void setDescription(String description){
         this.description = description;
@@ -21,6 +23,4 @@ public abstract class Mask {
     }
 
     protected abstract double cost();
-
-    public abstract void costs();
 }
