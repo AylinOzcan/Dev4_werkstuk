@@ -5,16 +5,13 @@ public class Client {
     private String name;
     private String lastname;
     private String address;
-    private int number;
+    private String number;
 
-    public Client() {
-    }
-
-    public Client( String name, String lastname, String address, int number ) {
+    public Client( String name, String lastname, String address, String number ) {
         this(-1, name, lastname, address, number);
     }
 
-    public Client( int id, String name, String lastname, String address, int number ) {
+    public Client( int id, String name, String lastname, String address, String number ) {
         if( name == null || name.trim().length() == 0 ) throw new IllegalArgumentException("client's name cannot be blank");
         if( lastname == null || lastname.trim().length() == 0 ) throw new IllegalArgumentException("client's lastname cannot be blank");
 
@@ -40,18 +37,9 @@ public class Client {
         return res;
     }
 
-    public String getAddress() {
-        return address;
-    }
-
-    public int getNumber() {
-        return number;
-    }
-
-    /*
     public String getClientInfo() {
-        String res = getFullName() + '\n' + getAddress() + '\n' + getNumber();
+        String res = getFullName() + '\n' + address + '\n' + number;
         return res;
     }
-    */
+
 }

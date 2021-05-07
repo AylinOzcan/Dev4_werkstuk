@@ -14,9 +14,4 @@ public final class Product extends Mask {
     protected double cost() {
         return 1.25;
     }
-
-    @Override
-    public void maskCosts() {
-        System.out.println("costs €" + cost());
-    }
 }

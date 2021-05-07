@@ -2,7 +2,7 @@ package be.ehb.multec.data;
 
 public class USMarket {
 
-    private double cost(){
+   private double cost(){
         return 1.50;
     }
 

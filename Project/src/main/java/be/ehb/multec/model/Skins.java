@@ -1,7 +1,7 @@
 package be.ehb.multec.model;
 
 public class Skins extends Decorator {
-    private String skins = "basic skin";
+    private String skins;
 
     public Skins(Mask mask, String skins) {
         super(mask);
@@ -10,9 +10,9 @@ public class Skins extends Decorator {
     }
 
     @Override
-    protected  double cost(){
-        return 1.70;
-    };
+    protected double cost() {
+        return super.cost() + 1.00;
+    }
 
     @Override
     protected String getDescription() {
@@ -21,10 +21,5 @@ public class Skins extends Decorator {
 
     public void setSkins(String skins) {
         this.skins = skins;
-    }
-
-    @Override
-    public void maskCosts() {
-        //does nothing
     }
 }

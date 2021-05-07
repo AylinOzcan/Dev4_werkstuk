@@ -1,6 +1,6 @@
 package be.ehb.multec.data;
 
-public class MonetaryAdapter implements EUMarket {
+public class MonetaryAdapter implements EUMarket{
     private USMarket usMarket;
 
     public MonetaryAdapter( USMarket us ) {
@@ -12,7 +12,8 @@ public class MonetaryAdapter implements EUMarket {
     }
 
     @Override
-    public void maskCosts() {
+    public void costs() {
         usMarket.maskInDollar();
     }
 }
+

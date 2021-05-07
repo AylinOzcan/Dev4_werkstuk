@@ -7,19 +7,19 @@ public class AdapterTest {
     public void adapterWithoutInterface() {
         USMarket adaptee = new USMarket();
         MonetaryAdapter adapter = new MonetaryAdapter( adaptee );
-        adapter.maskCosts();
+        adapter.costs();
     }
 
     @Test
     public void adapterWithInterface() {
         USMarket adaptee = new USMarket();
         EUMarket adapter = new MonetaryAdapter( adaptee );
-        adapter.maskCosts();
+        adapter.costs();
     }
 
     @Test
     public void adapterWithoutAdaptee() {
         EUMarket adapter = new MonetaryAdapter();
-        adapter.maskCosts();
+        adapter.costs();
     }
 }

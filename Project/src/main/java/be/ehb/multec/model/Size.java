@@ -1,7 +1,7 @@
 package be.ehb.multec.model;
 
 public class Size extends Decorator{
-    private String size = "medium";
+    private String size = "standard";
 
     public Size(Mask mask, String size) {
         super(mask);
@@ -10,9 +10,9 @@ public class Size extends Decorator{
     }
 
     @Override
-    protected  double cost(){
-        return 1.90;
-    };
+    protected double cost() {
+        return super.cost() + 0.50;
+    }
 
     @Override
     protected String getDescription() {
@@ -21,10 +21,5 @@ public class Size extends Decorator{
 
     public void setSize(String size) {
         this.size = size;
-    }
-
-    @Override
-    public void maskCosts() {
-        //does nothing
     }
 }
