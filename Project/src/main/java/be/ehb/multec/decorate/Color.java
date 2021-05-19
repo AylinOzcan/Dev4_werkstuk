@@ -1,7 +1,7 @@
-package be.ehb.multec.model;
+package be.ehb.multec.decorate;
 
-public class Color extends Decorator {
-    private String color = "standard";
+public class Color extends MaskDecorator {
+    private String color;
 
     public Color(Mask mask, String color){
         super(mask);
@@ -9,16 +9,18 @@ public class Color extends Decorator {
         super.setDescription(", color: " + color);
     }
 
+    public void setColor(String color){
+        this.color = color;
+    }
+
     @Override
     protected double cost() {
         return super.cost() + 0.25;
     }
 
-    public String getDescription(){
+    @Override
+    protected String getDescription(){
         return super.mask.getDescription() + super.getDescription();
     }
 
-    public void setColor(String color){
-       this.color = color;
-    }
 }

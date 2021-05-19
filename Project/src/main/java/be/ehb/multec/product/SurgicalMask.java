@@ -1,6 +1,8 @@
-package be.ehb.multec.model;
+package be.ehb.multec.product;
 
-public final class SurgicalMask extends Mask{
+import be.ehb.multec.decorate.Mask;
+
+public final class SurgicalMask extends Mask {
     private static final SurgicalMask mask = new SurgicalMask();
 
     private SurgicalMask(){

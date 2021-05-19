@@ -1,25 +1,23 @@
-package be.ehb.multec.model;
+package be.ehb.multec.decorate;
 
-public abstract class Mask {
+import be.ehb.multec.client.Client;
+
+public abstract class Mask{
     protected String description;
-    /*
     protected Client client;
-
-    public Client getClient() {
-        return client;
-    }
-
-    public void setClient(Client client) {
-        this.client = client;
-    }
-     */
-
-    protected void setDescription(String description){
-        this.description = description;
-    }
 
     protected String getDescription(){
         return description;
+    }
+    protected Client getClient() {
+        return client;
+    }
+
+    protected void setClient(Client client) {
+        this.client = client;
+    }
+    protected void setDescription(String description){
+        this.description = description;
     }
 
     protected abstract double cost();

@@ -1,12 +1,16 @@
-package be.ehb.multec.model;
+package be.ehb.multec.decorate;
 
-public class Size extends Decorator{
-    private String size = "standard";
+public class Size extends MaskDecorator {
+    private String size;
 
     public Size(Mask mask, String size) {
         super(mask);
         setSize(size);
         super.setDescription(", size: " + size);
+    }
+
+    public void setSize(String size) {
+        this.size = size;
     }
 
     @Override
@@ -17,9 +21,5 @@ public class Size extends Decorator{
     @Override
     protected String getDescription() {
         return super.mask.getDescription() + super.getDescription();
-    }
-
-    public void setSize(String size) {
-        this.size = size;
     }
 }

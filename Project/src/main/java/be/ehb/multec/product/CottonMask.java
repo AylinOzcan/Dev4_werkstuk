@@ -1,6 +1,8 @@
-package be.ehb.multec.model;
+package be.ehb.multec.product;
 
-public final class CottonMask extends Mask{
+import be.ehb.multec.decorate.Mask;
+
+public final class CottonMask extends Mask {
     private static final CottonMask mask = new CottonMask();
 
     private CottonMask(){

@@ -1,6 +1,6 @@
-package be.ehb.multec.model;
+package be.ehb.multec.decorate;
 
-public class Pattern extends Decorator {
+public class Pattern extends MaskDecorator {
     private String pattern;
 
     public Pattern(Mask mask, String pattern) {
@@ -9,16 +9,17 @@ public class Pattern extends Decorator {
         super.setDescription(", pattern: " + pattern);
     }
 
+    public void setPattern(String pattern){
+        this.pattern = pattern;
+    }
+
     @Override
     protected double cost() {
         return super.cost() + 0.75;
     }
 
-    public String getDescription(){
+    @Override
+    protected String getDescription(){
         return super.mask.getDescription() + super.getDescription();
-    }
-
-    public void setPattern(String pattern){
-        this.pattern = pattern;
     }
 }

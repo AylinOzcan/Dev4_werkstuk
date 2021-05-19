@@ -1,4 +1,4 @@
-package be.ehb.multec.model;
+package be.ehb.multec.client;
 
 public class Client {
     private int id;
@@ -33,13 +33,10 @@ public class Client {
     }
 
     public String getFullName() {
-        String res = name + " " + lastname;
-        return res;
+        return "Client " + id + '\'' + name + " " + lastname;
     }
 
     public String getClientInfo() {
-        String res = getFullName() + '\n' + address + '\n' + number;
-        return res;
+        return getFullName() + '\'' + address + '\'' + number;
     }
-
 }
