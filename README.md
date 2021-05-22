@@ -1,3 +1,4 @@
-#Dev4_werkstuk
+#Werkstuk Development IV - Java gedeelte
 
-###From Jens Van De Voorde & Aylin Özcan
+###Van groep 29
+###Van De Voorde Jens & Özcan Aylin
