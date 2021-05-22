@@ -1,3 +1,9 @@
+be/ehb/multec/resource/CurrencyConverter.java
+ be.ehb.multec.resource.CurrencyConverter
+be/ehb/multec/resource/EUMarket.java
+ be.ehb.multec.resource.EUMarket
+be/ehb/multec/resource/USMarket.java
+ be.ehb.multec.resource.USMarket
 be/ehb/multec/decorate/Color.java
  be.ehb.multec.decorate.Color
 be/ehb/multec/decorate/Mask.java
@@ -10,14 +16,8 @@ be/ehb/multec/decorate/Text.java
  be.ehb.multec.decorate.Text
 be/ehb/multec/decorate/Pattern.java
  be.ehb.multec.decorate.Pattern
-be/ehb/multec/resource/USMarket.java
- be.ehb.multec.resource.USMarket
-be/ehb/multec/resource/EUMarket.java
- be.ehb.multec.resource.EUMarket
 be/ehb/multec/client/Client.java
  be.ehb.multec.client.Client
-be/ehb/multec/resource/CurrencyConverter.java
- be.ehb.multec.resource.CurrencyConverter
 be/ehb/multec/decorate/MaskDecorator.java
  be.ehb.multec.decorate.MaskDecorator
 be/ehb/multec/product/CottonMask.java

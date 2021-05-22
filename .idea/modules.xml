@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Dev4_werkstuk.iml" filepath="$PROJECT_DIR$/.idea/Dev4_werkstuk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Werkstuk_Dev_Java.iml" filepath="$PROJECT_DIR$/.idea/Werkstuk_Dev_Java.iml" />
     </modules>
   </component>
 </project>
