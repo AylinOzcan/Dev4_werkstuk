@@ -33,10 +33,10 @@ public class Client {
     }
 
     public String getFullName() {
-        return "Client " + id + '\'' + name + " " + lastname;
+        return "Client: " + name + " " + lastname;
     }
 
     public String getClientInfo() {
-        return getFullName() + '\'' + address + '\'' + number;
+        return getFullName() + ", " + address + ", " + number;
     }
 }
