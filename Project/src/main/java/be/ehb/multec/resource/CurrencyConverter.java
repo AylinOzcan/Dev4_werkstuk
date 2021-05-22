@@ -12,9 +12,10 @@ public class CurrencyConverter implements EUMarket{
     }
 
     @Override
-    public void costInEuro(double costInEuro) {
+    public double costInEuro(double costInEuro) {
         double costInDollar = costcalculater(costInEuro);
         usMarket.costInDollar(costInDollar);
+        return costInDollar;
     }
 
     public double costcalculater(double costInEuro) {

@@ -13,11 +13,11 @@ public abstract class Mask{
         return client;
     }
 
-    protected void setClient(Client client) {
-        this.client = client;
-    }
     protected void setDescription(String description){
         this.description = description;
+    }
+    protected void setClient(Client client) {
+        this.client = client;
     }
 
     protected abstract double cost();

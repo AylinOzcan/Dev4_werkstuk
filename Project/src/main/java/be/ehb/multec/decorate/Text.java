@@ -6,7 +6,7 @@ public class Text extends MaskDecorator {
     public Text(Mask mask, String text) {
         super(mask);
         setText(text);
-        super.setDescription(" text: " + text);
+        super.setDescription(", text: " + text);
     }
 
     public void setText(String text) {

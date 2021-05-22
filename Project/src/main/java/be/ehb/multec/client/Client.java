@@ -39,4 +39,15 @@ public class Client {
     public String getClientInfo() {
         return getFullName() + ", " + address + ", " + number;
     }
+
+    @Override
+    public String toString() {
+        return "Client{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", address='" + address + '\'' +
+                ", number='" + number + '\'' +
+                '}';
+    }
 }

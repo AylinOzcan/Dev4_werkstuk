@@ -1,6 +1,6 @@
-be/ehb/multec/resource/CurrencyConverterTest.java
- be.ehb.multec.resource.CurrencyConverterTest
-be/ehb/multec/decorate/MaskTest.java
- be.ehb.multec.decorate.MaskTest
 be/ehb/multec/client/ClientTest.java
  be.ehb.multec.client.ClientTest
+be/ehb/multec/decorate/MaskTest.java
+ be.ehb.multec.decorate.MaskTest
+be/ehb/multec/resource/CurrencyConverterTest.java
+ be.ehb.multec.resource.CurrencyConverterTest
